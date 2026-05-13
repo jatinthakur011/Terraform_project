@@ -21,6 +21,6 @@ resource "aws_instance" "my_ec2" {
   }
 }
 
-resource "s3_bucket" "demo" {
-  bucket = "jatu_buck"
+resource "aws_s3_bucket" "demo" {
+  bucket = "jatu_bucket"
 }
